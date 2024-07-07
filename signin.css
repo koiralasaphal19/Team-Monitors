@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*css for main body*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+/*css for left section panel starts here*/
+.left {
+    background-color: #E6F2FF;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.left h1 {
+    margin-top: auto;
+    font-size: 48px;
+    color: #007bff;
+}
+
+.left p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+}
+
+.footer {
+    margin-top: auto;
+    font-size: 14px;
+    color: #000;
+}
+/*css for left section panel ends here*/
+/*css for right section panel starts here*/
+.right {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+.right h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+/*button hover*/
+button:hover {
+    background-color: #0056b3;
+}
+/*css for google sign in option with hover styling*/
+.google-signin {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.google-signin:hover {
+    background-color: #f1f1f1;
+}
+/*css for hover effect styling*/
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right p:last-of-type {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+/*css for right section panel ends here*/
